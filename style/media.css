@@ -1,0 +1,53 @@
+@media screen and (max-width: 1010px) {
+  table {
+    border-radius: 5px;
+    background-color: #bbada0;
+    padding: 2px;
+    border-spacing: 11px;
+  }
+
+  td {
+    height: 200px;
+    width: 200px;
+    color: rgb(107, 98, 88);
+    font-size: 60px;
+    margin: 300px;
+    border-radius: 3px;
+    background-color: #cdc0b4;
+    border: none;
+    transition: all 500ms ease-in-out;
+  }
+
+  .GameButton {
+    border: none;
+    margin: 10px;
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .inforamtionField {
+    margin: 70px 0 30px 0;
+    color: rgb(107, 98, 88);
+  }
+
+  .scoreAndSeconds {
+    margin: 10px;
+    width: 270px;
+    height: 30px;
+    font-size: 40px;
+  }
+
+  .secondsFill {
+    font-size: 40px;
+  }
+
+  #score {
+    font-size: 40px;
+  }
+
+  .one {
+    font-size: 80px;
+  }
+}

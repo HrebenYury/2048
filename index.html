@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>2048 MS-1</title>
+	<link rel="stylesheet" href="style/style.css" />
+	<link rel="stylesheet" href="style/media.css" />
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link rel="shortcut icon" href="img/fudj.jpg" type="image/x-icon">
+  </head>
+  <body>
+
+	<div id="fillToSvipe">
+	<div class="one" id="one" onClick="document.getElementById('two').style.display =  'block'; 
+	document.getElementById('one').style.display =  'none'; clearСlock()
+	" >CLICK TO PLAY
+	</div>
+
+    <div class="FULLFIELD" id="two" style="display:none">
+      <form  name="TestForm">
+		<div class="inforamtionField" >
+			<div class="scoreAndSeconds">
+				SCORE : </br>
+				<div style="display:inline;" id="score"> </div>
+			</div>
+			<div class="scoreAndSeconds">
+        <input
+          class="secondsFill"
+          name="stopwatch"
+          size="10"
+          value="00:00:00.00"
+		/>
+		</div>
+		</div>
+		<div class="allButton" >
+		<input   class="GameButton startStop" type="button" value="PAUSE/CONTINUE" onclick="pause()" />
+		<input  class="GameButton newGame" type="button" value="NEW GAME" style="cursor: pointer; " onclick="return load();"></input>
+		</div>
+		<div id="canvas"></div>
+      </form> 
+	</div> 
+</div>
+    <script type="text/javascript" src="script/script.js"></script>
+  </body>
+</html>
